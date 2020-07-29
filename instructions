@@ -1,0 +1,15 @@
+leader creates repo
+
+leader slacks url to team
+
+team members clone remote repo into their machine
+$ git clone <ur>
+
+navigate to local repo$ cd <repo_name>
+
+each team member creates a branch in their name 
+$ git branch <firstname_lastname>
+
+team member creates a text file in their name
+$ touch <firstname_lastname>
+
