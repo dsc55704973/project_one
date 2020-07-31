@@ -1,15 +1,18 @@
-leader creates repo
+# Step 1
+create a remote repository on github w/ README and .gitignore (DS_Store)
 
-leader slacks url to team
+# Step 2
+each member clones the remote repo 
 
-team members clone remote repo into their machine
-$ git clone <ur>
+# Step 3
+create separate branches
+$ git <brance_name>
 
-navigate to local repo$ cd <repo_name>
+# Step 4
+code
 
-each team member creates a branch in their name 
-$ git branch <firstname_lastname>
+# Step 5
+add / commit 
 
-team member creates a text file in their name
-$ touch <firstname_lastname>
-
+# Step 6
+merge to master
