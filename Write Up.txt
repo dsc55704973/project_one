@@ -1,0 +1,32 @@
+Project #1
+
+An Analysis of Energy Companies
+
+By Holly Shirmenzagas, Daniel Carrillo, Daniel Jackson
+
+
+We set out to conduct our analysis of select energy companies using two major sources: Alpha Vantage and Robin Hood.  Alpha Vantage is a manageable API that we knew could leverage to pull relevant financial information that we would need to execute our analysis, including Income Statement, Balance Sheet, and Cash Flow information.  With Robin Hood, we had access to tremendous hourly stock data, including price and holdings.
+
+In the end, we primarily focused on the Income Statement API of Alpha Vantage, and the stock price and holdings data in Robin Hood.  Due to API call limitations on the Alpha Vantage, we ended up leveraging a CSV download instead, from which we were able to extract quarterly financial data, including all of the following: revenue, earnings before interest and tax (EBIT), debt, and dividend payout.  We were then able to compute actuals versus averages for dividend payout, payout as a percentage of EBIT, operating margin, and leverage, from which we were able to construct simple models.
+
+We wanted to know if stock prices generally represented how these energy companies were performing according to our specified financial metrics, and we even made some discoveries along the way.  To that end, we were able to discern the following:
+
+* There appears to be an unprecedented upswing in stockholders investing in energy since COVID, which is strange, and we theorize this could be due to stockholders desire to preserve their capital in a static market, essentially safeguarding themselves against economic turbulence, or perhaps an unknown factor beyond the scope of our study.
+
+* We were surprised by how well our portfolio paid out to investors, with dividends in the multi-millions; yet, we understand that even this is generally far below other industries' payout.
+
+* We observed that our portfolio, being a sample, represented that the energy market is paying out approximately 50% less in the last quarter in our analysis (June 2020) than the previous quarter, reflecting the impacts of COVID on all markets--we definitely saw an obvious synchronization between our two data sets there.
+
+* We speculate that the remarkable volatility in recent months might be due to COVID and its impact on the economy as a whole.
+
+* Our findings affirmed that the energy sector has performed poorly relative to other sectors
+
+* Over the last several years, the public energy sector on average has continuously made distributions to shareholders, even through COVID.
+
+* Per our analysis of payout as a percentage of EBIT, the energy sector on average has paid out approximately 20-30% of earnings to shareholders, which is consistent with our analysis of dividend payouts.
+
+* On average, EBIT and revenue margins over the last 2+ years fell below 25%, which is generally not what investors want to see--even in spite of a negative average in Q1 2020, when investment in energy was increasing, continuing to increase into Q2 2020, which also exhibited a marked low average.
+
+* An analysis of cash flow relative to debt outstanding (leverage), debt was primarily between 0-5x greater than EBIT (most lenders require an a leverage below 4x); perhaps there is an ulterior relationship between the marked increase in energy investments and the impacts COVID has had on lending and interest rates
+
+At the culmination of our study, we walk away with a peaked interest in what the market is doing currently as well as speculations as to how it will behave in subsequent months.  We generally found that there is at least some reasonability that the financials represent how the energy sector is performing, but also that results and definitive conclusions require a more robust analysis.
