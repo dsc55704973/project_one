@@ -1,1 +1,0 @@
-Use this file to store our API data (JSON dumps, etc.)
